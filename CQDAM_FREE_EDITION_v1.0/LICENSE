@@ -1,0 +1,99 @@
+# CQDAM FREE EDITION LICENSE AGREEMENT (v1.0)
+
+**Copyright © 2025 Laminar Instruments Inc. All rights reserved.**
+
+IMPORTANT—READ CAREFULLY. By installing or using the Software (defined below) you agree to this Agreement.
+
+## 1. Definitions
+
+"**Software**" means the CQDAM Free Edition object code and any accompanying scripts, sample configs, and documentation provided by Laminar Instruments Inc. ("**Licensor**"). "**You**" means the individual or legal entity exercising rights under this Agreement. "**Non-commercial Use**" means use not primarily intended for or directed toward commercial advantage or monetary compensation. "**Evaluation Use**" means internal, non-production testing to assess the Software for potential commercial licensing.
+
+## 2. License Grant (Free, Non-Commercial)
+
+Subject to this Agreement, Licensor grants You a limited, non-exclusive, non-transferable, revocable license to install and use the Software solely for **Non-commercial Use**. No rights are granted by implication or estoppel.
+
+## 3. Optional Evaluation Exception (Entities)
+
+If You are an organization, You may use the Software for **Evaluation Use** for **30** days from first install, strictly **non-production** and **internal only**. Continued or production use requires a commercial license.
+
+## 4. Restrictions
+
+You shall not:
+(a) use the Software for commercial purposes (except Evaluation Use under §3);
+(b) host, provide, or make the Software available as a service to third parties (SaaS, service bureau, multi-tenant, or managed service);
+(c) redistribute, sublicense, assign, or transfer the Software;
+(d) reverse engineer, decompile, or disassemble the Software except to the limited extent permitted by applicable law notwithstanding this restriction;
+(e) remove or alter proprietary notices or trademarks;
+(f) create derivative works of the Software;
+(g) use the Software to build or train any product or service that is **substantially similar** to, or competes with, Licensor's products;
+(h) use the Software in any safety-critical or high-risk system (e.g., medical, aviation, nuclear, emergency services) where failure could lead to death, personal injury, or severe environmental or property damage.
+
+## 5. Performance Limitation; Anti-Circumvention
+
+The Free Edition includes a performance cap of approximately **2.5 million operations per second**. You shall not attempt to bypass, remove, or interfere with any technical limitation or enforcement mechanism. Licensor may include technical measures that monitor and enforce such limitations.
+
+## 6. Benchmarks & Public Statements
+
+You may run internal benchmarks. **Public disclosure** of performance tests, comparisons, or evaluations of the Software requires **prior written consent** from Licensor.
+
+## 7. Proprietary Rights
+
+The Software is licensed, not sold. Licensor and its licensors own all right, title, and interest in and to the Software, including all intellectual property rights. Except for the license expressly granted, all rights are reserved.
+
+## 8. Open-Source Components
+
+The Software may include third-party open-source components governed by their own licenses, which are **incorporated by reference**. To the extent of any conflict, those licenses control for their components. See **THIRD_PARTY_NOTICES** (if any).
+
+## 9. Feedback
+
+You may submit suggestions, bug reports, or other feedback ("**Feedback**"). Licensor may use Feedback **without restriction or compensation**.
+
+## 10. Privacy & Telemetry
+
+The Free Edition **does not transmit telemetry by default**. You are responsible for any data You process with the Software.
+
+## 11. No Warranty
+
+THE SOFTWARE IS PROVIDED **"AS IS"** AND **"AS AVAILABLE"**. LICENSOR DISCLAIMS ALL WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED, OR SUITABLE FOR HIGH-RISK USES.
+
+## 12. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF PROFITS, REVENUE, DATA, OR GOODWILL, ARISING OUT OF OR RELATING TO THIS AGREEMENT OR USE OF THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY. LICENSOR'S TOTAL LIABILITY SHALL NOT EXCEED **US$100**.
+
+## 13. Term; Termination
+
+This Agreement is effective upon first use and continues until terminated. Licensor may terminate immediately if You breach this Agreement. Upon termination, You must stop using and destroy all copies of the Software. Sections **4–7, 9–20** survive termination.
+
+## 14. Updates; Support; SLAs
+
+Licensor may provide updates at its discretion; updates are governed by this Agreement unless accompanied by a new license. **No support or service-level commitments** are provided under the Free Edition.
+
+## 15. Export Control; Sanctions
+
+You represent that You are not prohibited from receiving the Software under U.S. or other applicable export laws. You shall comply with all export, re-export, and sanctions laws and regulations.
+
+## 16. U.S. Government Rights
+
+If the Software is provided to a U.S. Government end user, it is provided as **"commercial computer software"** with only those rights specified in this Agreement. 48 C.F.R. 12.212 and 227.7202 apply.
+
+## 17. Governing Law; Venue; Dispute Resolution
+
+This Agreement is governed by the laws of **Delaware**, excluding conflicts-of-law rules. Courts located in **New Castle County, Delaware** shall have exclusive jurisdiction, and the parties consent to personal jurisdiction and venue there.
+
+## 18. Injunctive Relief
+
+Unauthorized use, copying, or disclosure may cause irreparable harm. Licensor may seek injunctive relief without posting bond.
+
+## 19. Assignment
+
+You may not assign or transfer this Agreement, by operation of law or otherwise, without Licensor's prior written consent. Any unauthorized assignment is void.
+
+## 20. Miscellaneous
+
+This is the **entire agreement** between the parties regarding the Software and supersedes all prior or contemporaneous understandings. If any provision is held unenforceable, it will be modified to the minimum extent necessary to be enforceable, and the remainder will remain in effect (**severability**). Failure to enforce any right is not a waiver. Force-majeure events excuse performance.
+
+## 21. Commercial License
+
+For commercial use, durability/security features, clustering/replication, and unrestricted performance, contact: **sales@laminarinstruments.com** for **CQDAM Enterprise** licensing.
+
+**Contact:** Laminar Instruments Inc. • Email: **darreck@laminarinstruments.com** • Web: **https://laminarinstruments.com**
