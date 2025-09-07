@@ -33,13 +33,40 @@ CQDAM Free Edition is a high-performance key-value data server powered by the **
 
 ### Installation
 
+#### macOS Users - IMPORTANT SECURITY NOTE
+
+If you see **"Cannot be opened because it is from an unidentified developer"**, follow one of these methods:
+
+**Method 1 (Easiest):**
+1. Right-click `cqdam_free` → Select "Open"
+2. Click "Open" in the security dialog
+3. The binary will now run normally
+
+**Method 2 (Terminal):**
+```bash
+# Remove quarantine flag and make executable
+xattr -d com.apple.quarantine ./cqdam_free
+chmod +x ./cqdam_free
+./cqdam_free --help
+```
+
+**Method 3 (System Settings):**
+1. Try to run `./cqdam_free`
+2. Open System Settings → Privacy & Security
+3. Click "Open Anyway" next to the blocked app message
+4. Run `./cqdam_free` again and click "Open"
+
+*Note: This is a one-time setup. macOS requires this for unsigned binaries.*
+
+#### Standard Installation
+
 Run the automated installer:
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### Manual Installation
+#### Manual Installation
 
 1. Copy `cqdam_free` to your preferred location
 2. Make executable: `chmod +x cqdam_free`
