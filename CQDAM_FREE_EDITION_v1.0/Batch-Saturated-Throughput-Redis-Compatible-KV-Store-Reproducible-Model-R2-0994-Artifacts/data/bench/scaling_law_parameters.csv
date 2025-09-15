@@ -1,0 +1,6 @@
+parameter,value,error,description
+a,182108,10515,throughput_coefficient
+b,0.012674,0.000994,saturation_coefficient
+r_squared,0.998076,,goodness_of_fit
+max_theoretical,14368598,,ops_per_sec
+half_saturation,78.9,,pipeline_count

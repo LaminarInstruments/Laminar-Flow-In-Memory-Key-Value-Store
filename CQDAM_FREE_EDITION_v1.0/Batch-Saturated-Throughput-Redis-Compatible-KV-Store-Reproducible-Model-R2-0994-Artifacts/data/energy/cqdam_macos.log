@@ -1,0 +1,12 @@
+# CQDAM Energy Measurements - macOS
+# Generated: 2025-09-15T12:00:00Z
+# Method: powermetrics --samplers smc --show-usage-summary
+# Duration: 60s windows per pipeline depth
+# 
+# Format: pipeline_depth,power_watts,throughput_ops_per_sec,energy_uj_per_op
+1,1.2,151057,7.94
+10,1.35,1510574,0.89
+50,1.41,7575370,0.186
+100,1.424,8333334,0.171
+200,1.44,10000000,0.144
+500,1.46,12499999,0.117

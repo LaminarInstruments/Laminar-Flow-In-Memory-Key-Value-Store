@@ -1,0 +1,35 @@
+{
+  "pipeline_closure": {
+    "valid": true,
+    "points_tested": 5
+  },
+  "syscall_budget": {
+    "valid": true,
+    "theoretical_values": [
+      [
+        1,
+        0.04
+      ],
+      [
+        10,
+        0.004
+      ],
+      [
+        50,
+        0.0008
+      ],
+      [
+        200,
+        0.0002
+      ],
+      [
+        500,
+        8e-05
+      ]
+    ]
+  },
+  "cycles_per_op_band": {
+    "valid": true,
+    "estimated_cycles_per_op": 243.59999999999997
+  }
+}

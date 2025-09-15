@@ -1,0 +1,138 @@
+CQDAM FREE EDITION LICENSE
+Version 1.0, September 15, 2025
+
+Copyright (c) 2025 Laminar Instruments Inc.
+Author: Darreck Lamar Bender II
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. DEFINITIONS
+
+"Software" means the CQDAM Free Edition executable binary and associated 
+documentation files included in this distribution.
+
+"License" means this document and the terms and conditions defined herein.
+
+"You" or "Your" means an individual or Legal Entity exercising permissions 
+granted by this License.
+
+"Laminar Instruments" means Laminar Instruments Inc., a corporation organized 
+under the laws of Delaware, United States.
+
+2. GRANT OF LICENSE
+
+Subject to the terms and conditions of this License, Laminar Instruments hereby 
+grants to You a worldwide, non-exclusive, non-transferable license to:
+
+a) Use the Software for personal, academic, and non-commercial research purposes;
+b) Reproduce and distribute exact copies of the Software;
+c) Publicly perform and display the Software for academic presentations.
+
+3. RESTRICTIONS
+
+You may NOT:
+a) Modify, adapt, alter, translate, or create derivative works based on the Software;
+b) Reverse engineer, decompile, disassemble, or otherwise attempt to derive the 
+   source code of the Software;
+c) Use the Software for commercial purposes without obtaining a separate 
+   commercial license from Laminar Instruments;
+d) Remove or alter any copyright notices, trademarks, or other proprietary notices;
+e) Use the Software in any way that competes with Laminar Instruments' commercial 
+   offerings.
+
+4. COMMERCIAL USE
+
+Commercial use of the Software requires a separate commercial license. Commercial 
+use includes, but is not limited to:
+- Using the Software in a commercial product or service;
+- Using the Software to provide services to third parties for compensation;
+- Using the Software in any for-profit organization or enterprise.
+
+For commercial licensing, contact: license@laminarinstruments.com
+
+5. ACADEMIC AND RESEARCH USE
+
+Academic institutions and researchers may use the Software for non-commercial 
+research and educational purposes. Publications and research papers using the 
+Software must include appropriate citations as specified in the documentation.
+
+6. PATENT PROTECTION
+
+The Software implements patented and patent-pending technologies owned by 
+Laminar Instruments. This license does NOT grant any patent rights beyond 
+the limited use rights explicitly granted herein. The Congruent Quantum Data 
+Architecture Method (CQDAM) and related technologies are protected by pending 
+patent applications.
+
+7. DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+LAMINAR INSTRUMENTS OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES 
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+
+8. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL LAMINAR INSTRUMENTS BE LIABLE FOR ANY DIRECT, INDIRECT, 
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE 
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF 
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+9. PERFORMANCE CLAIMS
+
+While the Software implements mathematically predictable performance characteristics 
+as described in the accompanying research paper, actual performance may vary based 
+on hardware, operating system, workload, and other factors. Performance claims are 
+based on specific test conditions and may not be representative of all use cases.
+
+10. TERMINATION
+
+This License is effective until terminated. Your rights under this License will 
+terminate automatically without notice if You fail to comply with any term or 
+condition of this License. Upon termination, You must cease all use of the 
+Software and destroy all copies.
+
+11. GOVERNING LAW
+
+This License shall be governed by and construed in accordance with the laws of 
+the State of Delaware, United States, without regard to its conflict of laws 
+provisions. Any disputes arising under this License shall be subject to the 
+exclusive jurisdiction of the courts of Delaware.
+
+12. ENTIRE AGREEMENT
+
+This License constitutes the entire agreement between You and Laminar Instruments 
+regarding the Software and supersedes all prior communications, agreements, or 
+understandings, whether written or oral.
+
+13. ACKNOWLEDGMENTS
+
+The Software incorporates research and development funded by Laminar Instruments Inc. 
+The mathematical models and performance characteristics are the result of original 
+research by Darreck Lamar Bender II and are protected by intellectual property rights.
+
+14. CONTACT INFORMATION
+
+For questions regarding this License:
+- General: info@laminarinstruments.com
+- Licensing: license@laminarinstruments.com  
+- Technical Support: support@laminarinstruments.com
+- Legal: legal@laminarinstruments.com
+
+---
+
+CQDAM FREE EDITION v1.0
+Copyright (c) 2025 Laminar Instruments Inc.
+Author: Darreck Lamar Bender II
+All rights reserved.
+
+Patent-pending technologies. Unauthorized commercial use prohibited.
+
+By using the Software, You acknowledge that You have read this License, 
+understand it, and agree to be bound by its terms and conditions.

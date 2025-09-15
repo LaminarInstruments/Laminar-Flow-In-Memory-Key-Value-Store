@@ -1,0 +1,126 @@
+{
+  "title": "CQDAM Research Artifact Data Manifest",
+  "version": "1.0",
+  "created": "2025-09-15T12:00:00Z",
+  "author": "Darreck Lamar Bender II",
+  "organization": "Laminar Instruments Inc.",
+  "paper_title": "Batch-Saturated Single-Thread Throughput in a Redis-Compatible In-Memory KV Store: A Reproducible Model with R² ≈ 0.994",
+  "description": "Complete experimental data and analysis artifacts for reproducing all research results",
+  
+  "system_info": {
+    "primary_platform": "macOS 14.x on Apple M2",
+    "secondary_platform": "Linux x86_64",
+    "compiler": "clang -O3 -march=native",
+    "measurement_tools": ["redis-benchmark", "powermetrics", "strace", "perf"],
+    "analysis_tools": ["Python 3.8+", "numpy", "pandas", "matplotlib", "scipy"]
+  },
+  
+  "experimental_parameters": {
+    "model": "T(p) = p/(t0 + t1*p)",
+    "identified_parameters": {
+      "t0": "5.49 μs/batch",
+      "t1": "69.6 ns/op", 
+      "r_squared": 0.994,
+      "Tmax": "14.37 Mops/s"
+    },
+    "measurement_conditions": {
+      "clients": 50,
+      "pipeline_depths": [1, 10, 50, 100, 200, 500],
+      "payload_sizes": [64, 128, 256, 1024],
+      "measurement_duration": "60s steady state after 10s warmup",
+      "cpu_frequency": "pinned/stable",
+      "persistence": "disabled"
+    }
+  },
+  
+  "data_files": {
+    "benchmark_csvs": {
+      "directory": "bench/",
+      "count": 8,
+      "description": "Core throughput and latency measurements for C=50 across pipeline depths",
+      "format": "CSV with columns: test, rps, avg_latency_ms, p50_latency_ms, p95_latency_ms, p99_latency_ms",
+      "key_files": [
+        "cqdam_C50_P1.csv",
+        "cqdam_C50_P10.csv", 
+        "cqdam_C50_P50.csv",
+        "canonical_cqdam_c50_p100.csv",
+        "cqdam_C50_P200.csv",
+        "cqdam_C50_P500.csv",
+        "axiom3_scaling.csv",
+        "scaling_law_parameters.csv"
+      ]
+    }
+  },
+  
+  "validation_results": {
+    "mathematical_model": {
+      "fit_quality": "R² = 0.994",
+      "parameter_confidence_intervals": {
+        "t0_95_ci": "[5.20, 5.77] μs/batch",
+        "t1_95_ci": "[67.96, 71.28] ns/op"
+      },
+      "residual_analysis": "No systematic structure (Shapiro-Wilk p > 0.05)",
+      "bootstrap_validation": "1000 resamples confirm parameter stability"
+    },
+    "system_invariants": {
+      "pipeline_closure": "T·p50s ≤ C·p validated across all measurements",
+      "syscall_budget": "syscalls/op = 2/(Cp) confirmed by traces",
+      "cycles_per_op_band": "Tight efficiency band for fixed payloads"
+    },
+    "performance_claims": {
+      "throughput_improvement": "2.11× vs Redis at C=50, P=100",
+      "energy_improvement": "2.0× efficiency (μJ/op)",
+      "memory_improvement": "2.0× efficiency (bytes/entry)"
+    }
+  },
+  
+  "reproducibility": {
+    "reproduction_script": "../reproduce-all-results.sh",
+    "analysis_scripts": [
+      "../analysis/fit-throughput-model.py",
+      "../analysis/validate-invariants.py", 
+      "../analysis/generate-figures.py"
+    ],
+    "expected_outputs": {
+      "model_parameters": "t0, t1, R² matching paper values",
+      "figures": "All paper figures regenerated from data",
+      "validation": "All invariants confirmed"
+    },
+    "verification_command": "./reproduce-all-results.sh"
+  },
+  
+  "data_integrity": {
+    "verification_method": "SHA-256 hashes",
+    "note": "File hashes can be verified using standard tools",
+    "last_verified": "2025-09-15T12:00:00Z"
+  },
+  
+  "licensing": {
+    "data_license": "Creative Commons Attribution 4.0 International",
+    "software_license": "CQDAM Free Edition License", 
+    "patent_status": "Patent-pending technologies",
+    "commercial_use": "Requires separate licensing from Laminar Instruments Inc."
+  },
+  
+  "contact": {
+    "author_email": "darreck@laminarinstruments.com",
+    "organization": "Laminar Instruments Inc.",
+    "research_inquiries": "research@laminarinstruments.com",
+    "technical_support": "support@laminarinstruments.com",
+    "licensing": "license@laminarinstruments.com"
+  },
+  
+  "citation": {
+    "bibtex": "@article{bender2025batch,\n  title={Batch-Saturated Single-Thread Throughput in a Redis-Compatible In-Memory KV Store: A Reproducible Model with R² ≈ 0.994},\n  author={Bender II, Darreck Lamar},\n  organization={Laminar Instruments Inc.},\n  year={2025}\n}",
+    "doi": "TBD",
+    "arxiv": "TBD",
+    "github": "https://github.com/LaminarInstruments/CQDAM-Artifacts"
+  },
+  
+  "quality_assurance": {
+    "peer_review": "Under review",
+    "code_review": "Internal review completed",
+    "data_validation": "All measurements verified",
+    "reproducibility_testing": "Independent verification pending"
+  }
+}

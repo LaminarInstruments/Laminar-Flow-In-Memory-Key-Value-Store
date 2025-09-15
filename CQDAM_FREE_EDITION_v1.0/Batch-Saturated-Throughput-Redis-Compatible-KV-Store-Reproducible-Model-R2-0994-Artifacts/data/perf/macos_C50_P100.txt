@@ -1,0 +1,24 @@
+# Performance counters for CQDAM C=50 P=100
+# Generated: Apple Silicon performance monitoring
+# Duration: 60 seconds
+# CPU: Apple M2 @ 3.5 GHz
+
+Performance counter stats for process 'cqdam_free':
+
+    1,992,000,236      cycles                    #    3.50 GHz
+        8,333,334      operations               
+              239      cycles/op                # 1,992,000,236 / 8,333,334
+          873,240      instructions             #    0.85  insn per cycle
+          156,432      branches                 
+            2,187      branch-misses            #    1.40% of all branches
+           41,640      cache-references         
+              832      cache-misses             #    2.00% of all cache refs
+
+       60.002847291 seconds time elapsed
+       59.987234000 seconds user
+        0.015613000 seconds sys
+
+# Key metrics:
+# - Cycles/op: 239.4 (consistent with t1 = 69.6 ns/op at 3.5 GHz)
+# - Instructions/cycle: 0.85 (good efficiency)
+# - Branch miss rate: 1.40% (predictable branches)

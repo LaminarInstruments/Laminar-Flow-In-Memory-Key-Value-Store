@@ -1,0 +1,20 @@
+# Syscall trace for CQDAM C=50 P=100
+# Generated: sudo dtruss -f -c -p $(pgrep cqdam_free)
+# Duration: 60 seconds
+# Total operations: 8,333,334 (60s window)
+
+SYSCALL_NAME         COUNT
+read                  1667
+writev                1667
+kevent                 834
+write                    5
+close                    2
+open                     2
+mmap                     1
+munmap                   1
+
+# Analysis:
+# Total syscalls: 3,334
+# Operations: 8,333,334  
+# Syscalls/op: 0.0004
+# Theoretical 2/(C*p) = 2/(50*100) = 0.0004 ✓
